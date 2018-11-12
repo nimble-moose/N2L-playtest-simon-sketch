@@ -1,0 +1,21 @@
+{
+  "name": "playtest-simon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rm -rf dist/* && parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "parcel-bundler": "^1.10.3",
+    "tone": "^0.12.80"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.5"
+  }
+}
